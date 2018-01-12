@@ -1,0 +1,14 @@
+REPORT 1 (25/12/2017):
+Last time, I start testing some templates of ecstatic. I generate a website using theme 'perso'. And I tried to understand the structure
+of the *.template files as default.template (especially the attribute {{{title}}} and {{{content}}}). Then I tried to mix other templates found on the web, to see how to manage ressources (css, images, js : On that, I proposed that when the theme directory is generated, the possibility of creating automatically js, css, images directory, for categorizing).
+I start creating a theme from scratch in order to get something like esug website. Then I modify the template file of the perso theme, using some css from other themes. Now I remark a problem (or I don't know how to do it), I want to have to parts on a page (as columns) like articles on a page. I don't know how to define that in pillar. The second possibility is to declar it in the template file, but other files will automatically have it, that is not what we want.
+
+
+I propose reorganization of menus on esug website.
+
+Today I am going to try how dynamic we can have in ecstatic.
+
+
+REPORT 2 (26/12/2017):
+I have just tried to see how we can integrate javascript in ecstatic development. I notice that to have more dynamic pages, we need to manipulate the dom of html pages. But I am thinking whether we are going to write javascript in *.templates files or in pillar files. (I am going to test the faisability of those ideas).
+I tried to read more about js (videos, tutos, etc...)																																																																																					

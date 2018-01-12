@@ -1,0 +1,19 @@
+!BIYALOU-SAMA Asbathou
+
+Hi! This is your Ecstatic website. In Ecstatic webpages are described in the Pillar markup language.
+
+!!Article 1 : Ecstatic
+
+Ecstatic is a static website generator featuring amongst others:
+
+- Existing themes to customize your look and feel
+- Templates using the Mustache template engine
+- a nice set of plugins
+
+!!Article 2 : Another header
+
+We will try to generate all this.
+
+!!Article 3 : Pillar
+
+Pillar is a markup language written in the Pharo programming language. Pillar allows to export documents in html, latex and others.
