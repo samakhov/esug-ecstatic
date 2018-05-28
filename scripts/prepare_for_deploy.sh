@@ -13,7 +13,7 @@ __base="$(basename ${__file} .sh)"
 __root="${__dir}/.." # <-- change this as it depends on your app
 
 
-cd ${__root}/_result/html
+cd ${__root}/_site
 git init
 git add .
 git commit -m "Generated from source branch: `cd ${__root} && git log -1 --oneline`"
