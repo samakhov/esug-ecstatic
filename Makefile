@@ -14,7 +14,7 @@ clonedeploy:
 
 deploy: generate
 	./scripts/prepare_for_deploy.sh
-	cd _site && git push -f origin gh-pages
+	cd _site && git push -f origin HEAD:gh-pages
 
 clean:
 	rm -rf .ecstatic
