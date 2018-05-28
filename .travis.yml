@@ -1,0 +1,14 @@
+language: c
+addons:
+  apt:
+    packages:
+    - libasound2:i386
+    - lib32z1
+    - lib32bz2-1.0
+    - libssl1.0.0:i386
+    - libfreetype6:i386
+script:
+- if [[ ${TRAVIS_BRANCH} == "master" ]]; then make deploy; fi
+env:
+  global:
+    secure: v9atac2ukNer5bMchXRh1NizXK1c76vD1dN25CKY+hlP+3d8gDZhhUlShAlFAi51Yzx0IH7DiIPV10J2H0pda0hzq3zoGhhh7OyEEQJFHRWeiFayVabynI8bNowa4pdV9nSyIy9zrFk7Us8VYybXlzSMGLk62EHNEC5d+Nnyq35lezynFB+2qFYmnHu69kAQDmiHzJFJwe7/rx00xNL1AijGlKplxB7CZyZzaZmccN9UEcpg++NpO2E1Rcf9DY3xsJ6H4HfV9Lb2uwIk5KEMKy2hsO4pWsUjMkMFauTXs6Xn7MJPmGfxldbzTSDMO+W3Bh77a66xgKxTsmAxi3f4S7OQWVmxkYz9vmTNJeH1ahhlqlIfwIxpx48l+2bnAqPlCJRVADt4zDclFHuacs+di3UbpGIc2/WM057xO9Z81OeiL9fk2mMEMrz9fzQ/1nStSWaj0imbqK0YnwDsZHg31cb8DzswYG3qS0kxkBzFMUA2dgFizDAJ2YN3v7ZkCFfWTveo1l+K/iiTUnb+vlAJm/Rx5ZF3x7ShiMmVhzz9nkWpBiuRHutRK+z2jZeKqVKQ/IZww0Di73ZtOuGV7It1CfH2wbxAILBcplMV4zs9/Husrd0lKte7U7WG7zm1QcsNnvWs8nWrmZU24l8EZo/6d57IesqX8qmW3wX8Dx9/5sc=
